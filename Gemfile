@@ -1,24 +1,16 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.0.0'
+gem "rails", "~> 3.0.0"
+gem "haml"
+gem "mysql2"
 
-gem "authlogic"
-gem 'mime-types', :require => 'mime/types'
-gem "carrierwave", :git => 'git://github.com/jnicklas/carrierwave.git' 
-# MySQL:
-#gem "mysql2"
-# PostgreSQL:
-gem 'pg'
+#gem 'mime-types', :require => 'mime/types'
 
-# S3 support
-gem 'fog'
+gem "RubyInline"
+gem "image_science"
 
-# ImageMagick:
-gem "rmagick", :require => 'RMagick'
+gem 'will_paginate', "~> 3.0.pre2"
+gem 'formtastic', '~> 1.1.0'
+gem 'inherited_resources', '1.1.2'
+gem 'inherited_resources_views'
 
-# FreeImage:
-#gem "RubyInline"
-#gem "image_science", :git => 'git://github.com/perezd/image_science.git'
-
-# MiniMagick
-#gem "mini_magick"
