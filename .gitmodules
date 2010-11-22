@@ -1,0 +1,6 @@
+[submodule "vendor/plugins/authlogic"]
+	path = vendor/plugins/authlogic
+	url = git://github.com/legiar/authlogic.git
+[submodule "vendor/plugins/carrierwave"]
+	path = vendor/plugins/carrierwave
+	url = git://github.com/jnicklas/carrierwave.git
